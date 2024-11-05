@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807325049430",
+    "firebase_url": "https://event-tracking-58c1c-default-rtdb.firebaseio.com",
+    "project_id": "event-tracking-58c1c",
+    "storage_bucket": "event-tracking-58c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807325049430:android:a396ecbef761385e2891f7",
+        "android_client_info": {
+          "package_name": "com.example.eventvista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807325049430-5kpecp3ku836ij9bge261tlrk7hacu7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZShHfAfyVC96fIjoONNwLrVkM5OrrjYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807325049430-5kpecp3ku836ij9bge261tlrk7hacu7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

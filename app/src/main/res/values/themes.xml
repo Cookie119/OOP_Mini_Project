@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EventVista" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Define primary color for buttons -->
+        <item name="colorPrimary">@color/darkblue</item>
+        <item name="colorOnPrimary">@android:color/white</item> <!-- Button text color on primary background -->
+
+        <!-- Default button style -->
+        <item name="android:buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="Theme.EventVista" parent="Base.Theme.EventVista" />
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/darkblue</item> <!-- Set your desired button color -->
+        <item name="android:textColor">@android:color/white</item> <!-- Button text color -->
+        <item name="android:padding">12dp</item> <!-- Optional: Padding for buttons -->
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
